@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--
-  Collectables - Privacy Policy.
+  CollectIt - Privacy Policy.
   Standalone HTML page intended for GitHub Pages hosting.
   Review before publishing; this is practical product-specific draft copy,
   not legal advice.
@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Collectables - Privacy Policy</title>
+  <title>CollectIt - Privacy Policy</title>
   <style>
     :root { color-scheme: light dark; }
     body {
@@ -53,14 +53,15 @@
   <p class="nav">
     <a href="./privacy.html">Privacy</a>
     <a href="./terms.html">Terms</a>
+    <a href="./impressum.html">Impressum</a>
     <a href="./delete-account.html">Delete account</a>
   </p>
 
-  <h1>Privacy Policy - Collectables</h1>
-  <p class="meta">Last updated: 7 July 2026</p>
+  <h1>Privacy Policy - CollectIt</h1>
+  <p class="meta">Last updated: 10 August 2026</p>
 
   <p>
-    This policy explains what personal data the <strong>Collectables</strong>
+    This policy explains what personal data the <strong>CollectIt</strong>
     mobile app (the "App") collects, why, and your rights over it. It is written
     to meet the EU General Data Protection Regulation (GDPR).
   </p>
@@ -138,11 +139,15 @@
 
   <h2>3. How AI generation works</h2>
   <p>
-    When you choose to cut out an object or generate an AI card or 3D model, the
-    relevant photo is sent to our AI processing provider
-    (<strong>fal.ai</strong>) to produce the result. Free "local" looks are
-    composed entirely on your device and are not sent anywhere. Only the images
-    you actively submit for AI processing leave your device for that purpose.
+    When you choose to cut out an object or generate an AI card or 3D model,
+    the relevant photo is processed by <strong>our own AI models</strong>.
+    These models run in an isolated GPU environment that we rent from
+    <strong>Runpod, Inc.</strong> and pin to data centers in the EU/EEA. Processing
+    is transient: images are transferred through short-lived signed links, are
+    not kept by the infrastructure provider beyond the processing itself, and
+    are never used to train AI models. Free "local" looks are composed entirely
+    on your device and are not sent anywhere. Only the images you actively
+    submit for AI processing leave your device for that purpose.
   </p>
 
   <h2>4. Why we use your data and the legal basis</h2>
@@ -164,7 +169,7 @@
   <table>
     <tr><th>Provider</th><th>Purpose</th></tr>
     <tr><td>Supabase</td><td>Authentication, database, and file storage (your account, cards, and images)</td></tr>
-    <tr><td>fal.ai</td><td>AI image processing (cutouts, stylized cards, 3D models)</td></tr>
+    <tr><td>Runpod, Inc.</td><td>GPU infrastructure (EU/EEA data centers) on which we run our own AI models for cutouts, stylized cards, and 3D models</td></tr>
     <tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Rewarded advertising and ad consent management</td></tr>
     <tr><td>Google Firebase Cloud Messaging (Google Ireland Ltd. / Google LLC)</td><td>Delivery of push notifications you enable. On iOS, delivery is completed by the Apple Push Notification service (Apple)</td></tr>
     <tr><td>RevenueCat</td><td>Subscription and in-app purchase management</td></tr>
@@ -186,12 +191,20 @@
 
   <h2>7. International transfers</h2>
   <p>
-    Some providers (for example Google and fal.ai) may process data on servers
-    outside the EU/EEA, including the United States. Where that happens, the
-    transfer is safeguarded by an EU adequacy decision where the provider is
-    certified under the EU-US Data Privacy Framework and, where needed, by the
-    European Commission's Standard Contractual Clauses together with additional
+    Some providers (for example Google) may process data on servers outside the
+    EU/EEA, including the United States. Where that happens, the transfer is
+    safeguarded by an EU adequacy decision where the provider is certified
+    under the EU-US Data Privacy Framework and, where needed, by the European
+    Commission's Standard Contractual Clauses together with additional
     safeguards where appropriate.
+  </p>
+  <p>
+    Our AI processing runs on infrastructure rented from Runpod, Inc., a US
+    company. We pin this processing to data centers in the EU/EEA, transfer content
+    only through short-lived signed links, and do not have it retained after
+    processing. For any residual access from outside the EU/EEA, Runpod's Data
+    Processing Agreement with the European Commission's Standard Contractual
+    Clauses applies.
   </p>
 
   <h2>8. How long we keep it</h2>
